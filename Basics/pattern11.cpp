@@ -5,24 +5,26 @@ int main()
 {
   int n;
   cin>>n;
+
   int i,j;
-  i =1;
+  i=1;
+  char ch ='A';
   while(i<=n)
   {
     j=1;
-    while(j<=i)
+    while(j<=n)
     {
-      cout<<"*"<<" ";
+      char result = 'A'+j-1;
+      cout<<result<<" ";
       j++;
-
     }
     cout<<endl;
     i++;
   }
 }
 /*
-*
-* *
-* * *
-* * * *
+A B C D
+A B C D
+A B C D
+A B C D
 */
