@@ -3,26 +3,25 @@ using namespace std;
 
 int main()
 {
-  int n ;
+  int n,i,j;
   cin>>n;
-  int i=1,j;
 
+  i = 1;
   while(i<=n)
   {
     j=1;
     while(j<=n)
     {
-      cout<<i<<" ";
+      cout<<n-j+1<<" ";
       j++;
     }
     cout<<endl;
     i++;
   }
-
 }
 /*
-1 1 1 1
-2 2 2 2
-3 3 3 3
-4 4 4 4
+4 3 2 1
+4 3 2 1
+4 3 2 1
+4 3 2 1
 */
