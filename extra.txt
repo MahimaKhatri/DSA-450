@@ -52,3 +52,9 @@ xor
 5 - 1 0 1
 7 - 1 1 1
     0 1 0 - 2 output
+
+
+left shift - add 0 at the end
+5<<1(shift 5 by 1)
+5 - 00000000000101
+    00000000001010
