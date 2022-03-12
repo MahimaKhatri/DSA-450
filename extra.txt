@@ -66,3 +66,7 @@ right shift - add 0 at the beginning and drop numbers from the end (mostly it's 
 5>>2
 -00000000000101
 -00000000000001
+
+left and right shift
+1. positive number - padding with 0
+2. negative number - padding is compiler dependent
