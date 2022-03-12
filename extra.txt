@@ -54,7 +54,15 @@ xor
     0 1 0 - 2 output
 
 
-left shift - add 0 at the end
-5<<1(shift 5 by 1)
+left shift - add 0 at the end(mostly it's multiply by 2 in case  of small numbers)
+5<<1(shift 5 by 1)(5x2)
 5 - 00000000000101
-    00000000001010
+    00000000001010 - 10
+3<<2(shift 3 by 2)(3x2x2)
+3 - 0000000000011
+    0000000001100 - 12
+
+right shift - add 0 at the beginning and drop numbers from the end (mostly it's divide by 2 in case of small numbers)
+5>>2
+-00000000000101
+-00000000000001
